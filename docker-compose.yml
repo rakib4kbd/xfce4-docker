@@ -4,3 +4,8 @@ services:
     ports:
       - 5900:5900
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1024M

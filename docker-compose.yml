@@ -1,0 +1,6 @@
+services:
+  vnc:
+    image: rakib4kbd/vnc
+    ports:
+      - 5900:5900
+    restart: always
